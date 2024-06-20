@@ -141,4 +141,7 @@
 	<suppress files="sockjs[\\/]transport[\\/]TransportType" checks="JavadocVariable"/>
 	<suppress files="src[\\/]test[\\/]java[\\/]org[\\/]springframework[\\/]web[\\/]reactive[\\/]protobuf[\\/].*" checks=".*"/>
 
+	<!-- spring-willian-example -->
+	<suppress files="spring-willian-example[\\/].*" checks=".*"/>
+
 </suppressions>

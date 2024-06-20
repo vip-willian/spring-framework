@@ -17,12 +17,15 @@ ext {
 	javaProjects = subprojects.findAll { !it.name.startsWith("framework-") }
 }
 
+// use jdk 21 build this project
 description = "Spring Framework"
 
 configure(allprojects) { project ->
 	apply plugin: "org.springframework.build.localdev"
 	group = "org.springframework"
 	repositories {
+		// 增加国内下载源
+		maven { url "https://maven.aliyun.com/repository/public/" }
 		mavenCentral()
 		maven {
 			url "https://repo.spring.io/milestone"

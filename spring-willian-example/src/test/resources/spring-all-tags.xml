@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- spring xml 标签说明
+
+	<beans profile="" default-autowire="" default-lazy-init="" default-init-method="" default-destroy-method=""
+		   default-autowire-candidates="" default-merge="">
+		<bean id="" name="" class="" parent="" depends-on="" factory-bean="" factory-method="" init-method=""
+			  lazy-init="" scope="" abstract="" autowire="" autowire-candidate="" destroy-method="" primary="">
+			<property name="" value="" ref=""/>
+			<constructor-arg index="" type="" name="" value="" ref=""/>
+			<lookup-method name="" bean=""/>
+			<replaced-method name="" replacer=""/>
+			<meta key="" value=""/>
+			<qualifier type="" value=""/>
+		</bean>
+	</beans>
+
+	<alias name="" alias=""/>
+	<alias name="" alias=""/>
+
+	<import resource="spring-other.xml"/>
+
+	-->
+</beans>
